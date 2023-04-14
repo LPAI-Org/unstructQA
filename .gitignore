@@ -1,0 +1,23 @@
+# .gitignore
+
+# Ignore virtual environment files
+venv/
+en/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.log
+
+# Ignore .env files (contains sensitive information like API keys)
+.env
